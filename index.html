@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Practica</title>
+</head>
+<body>
+    <!--Contentedor-->
+    <div class="container">
+        <!--Fila-->
+        <div class="row">
+            <!--Jumbotron-->
+            <div class="jumbotron" style="width: 100%;">
+                <h1 class="display-4">Mis mascotas favoritas</h1>
+                <p class="lead">En esta pagina se pueden ver mis mascotas favoritas. No son muchas, pero se llenarán con el tiempo c:</p>
+                
+            </div>
+        </div>
+
+        <!--Borde tipo bottom-->
+        <!--Menu flotante-->
+        <div class="dropdown border-bottom" style="padding-bottom: 2px; margin-bottom: 10px;">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="petDropdown">
+                Ver todo
+            </button>
+            <div class="dropdown-menu" aria-labelledby="petDropdown" id="petDropdownOptions">
+                <a class="dropdown-item" href="#" data-type="all">Ver todo</a>
+                <a class="dropdown-item" href="#" data-type="dogs">Ver perros</a>
+                <a class="dropdown-item" href="#" data-type="cats">Ver gatos</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--Columnas-->
+            <!--Columnas dependiendo de dimension-->
+            <div class="col-sm-12 col-md-6" id="col1">
+                <!--Borde tipo completo-->
+                <img src="pets/doggos/doggo1.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/doggos/doggo2.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/doggos/doggo3.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/doggos/doggo4.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/doggos/doggo5.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/doggos/doggo6.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/doggos/doggo7.jpg" class="border" style="padding: 5px; width: 100%;">
+            </div>
+            <div class="col-sm-12 col-md-6" id="col2">
+                <img src="pets/cattos/catto1.jpeg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/cattos/catto2.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/cattos/catto3.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/cattos/catto4.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/cattos/catto5.jpeg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/cattos/catto6.jpg" class="border" style="padding: 5px; width: 100%;">
+                <img src="pets/cattos/catto7.jpg" class="border" style="padding: 5px; width: 100%;">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
